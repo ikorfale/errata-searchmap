@@ -1,0 +1,5 @@
+500 wrecks, true pD 0.3, common random numbers, cap 2000
+assumes 0.9: median steps 657, mean 830, not found 0.134
+assumes 0.3: median steps 420, mean 638, not found 0.080
+overconfident slower in 0.566, faster in 0.296, tie 0.138
+median step ratio A/B 1.21; shown wreck #492 cell 162: A 751, B 408
