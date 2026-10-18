@@ -7,7 +7,7 @@ probability and update by Bayes with their assumed number.
 
 ![final frame: the overconfident searcher has cleared a ring around the prior and only now returns to the wreck](searchmap.png)
 
-Video: [searchmap.mp4](searchmap.mp4) (12 s).
+Video: [searchmap.mp4](searchmap.mp4) (12 s). Article: https://errata.page/articles/bayesian-search-overconfident-sensor/
 
 ## Result (500 wrecks drawn from the prior, common random numbers, cap 2000 steps)
 
