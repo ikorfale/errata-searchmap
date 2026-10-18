@@ -1,0 +1,5 @@
+300 wrecks per row, true pD 0.9, CRN, cap 2000; U assumes 0.3, T assumes 0.9
+sigma   2.0: median U 47 T 24 | mean U 92 T 47 | U slower 0.713 faster 0.100
+sigma   4.0: median U 135 T 87 | mean U 275 T 146 | U slower 0.643 faster 0.100
+sigma   8.0: median U 232 T 190 | mean U 315 T 233 | U slower 0.513 faster 0.090
+sigma  flat: median U 234 T 234 | mean U 272 T 265 | U slower 0.090 faster 0.023
