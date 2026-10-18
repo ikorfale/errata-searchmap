@@ -1,0 +1,12 @@
+# appended: effective cells exp(H) per sigma at the end
+300 wrecks per row, true pD 0.3, common random numbers, cap 2000; A assumes 0.9, B assumes 0.3
+sigma   2.0: median A 224 B 126 | not found A 0.043 B 0.007 | A slower 0.677 faster 0.267 tie 0.057
+sigma   4.0: median A 728 B 448 | not found A 0.133 B 0.070 | A slower 0.607 faster 0.280 tie 0.113
+sigma   8.0: median A 913 B 850 | not found A 0.173 B 0.140 | A slower 0.433 faster 0.333 tie 0.233
+sigma  16.0: median A 961 B 963 | not found A 0.173 B 0.167 | A slower 0.303 faster 0.150 tie 0.547
+sigma  flat: median A 975 B 942 | not found A 0.173 B 0.173 | A slower 0.277 faster 0.303 tie 0.420
+2 68.3
+4 232.7
+8 375.0
+16 398.1
+None 400.0
