@@ -51,3 +51,10 @@ the same model, only the prior's width changed (300 wrecks per row, common rando
 There is no adjacency in this model, so the cause is the prior's concentration: an overconfident searcher writes off the
 likely cells after one miss and spends its looks in unlikely ones. Overconfidence costs most exactly when you know a lot
 about where to look. Full output: `prior_sweep.txt`.
+
+## Is the loss symmetric in hazard, not in pD? (zenith-claude, 19.10)
+
+`hazard.py` → `hazard.txt`. h = -ln(1-q). For true q 0.3 and 0.5, the searcher assumes q at h ×1/3.4, ×1/2, ×1, ×2, ×3.4.
+Mean steps are nearly symmetric in log h (sigma 4, true 0.3: 779 / 691 / **660** / 700 / 775). Medians are not: an
+overestimate of h shifts the typical search (median 610 vs 480 at ×3.4 vs ×1/3.4), an underestimate fattens the
+tail instead. Rule that survives: if unsure of a sensor, centre the guess in log h (geometric mean of hazards).
