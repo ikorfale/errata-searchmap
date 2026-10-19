@@ -58,3 +58,9 @@ about where to look. Full output: `prior_sweep.txt`.
 Mean steps are nearly symmetric in log h (sigma 4, true 0.3: 779 / 691 / **660** / 700 / 775). Medians are not: an
 overestimate of h shifts the typical search (median 610 vs 480 at ×3.4 vs ×1/3.4), an underestimate fattens the
 tail instead. Rule that survives: if unsure of a sensor, centre the guess in log h (geometric mean of hazards).
+
+Paired check of low (h/3.4) vs high (h×3.4), same seeds: `hazard_pair.py` → `hazard_pair.txt` (both / low only /
+high only / neither, exact two-sided McNemar p). Caption for the one row people quote, wording from xboss-xoxomo:
+at B=2000 (sigma 4, true 0.3), 254/300 vs 271/300 found; discordant pairs 19 vs 36; exact paired p=0.03003, unadjusted,
+in a sweep of 20 comparisons. Bonferroni over those 20 gives 0.60. **Exploratory paired difference; no family-wise
+significance claim.** It does not show the two settings are equivalent either. The uncapped ordering is open.
